@@ -1,0 +1,52 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+
+
+
+.navbar-nav {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: 10px !important;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 170px;
+    padding-left: 10px;
+}
+
+.nav-item,
+form-check-input {
+    margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: black !important;
+    background-size: cover;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+    color: black;
+}
+
+.navCTA {
+    font-size: 15px;
+}
