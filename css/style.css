@@ -15,13 +15,16 @@ p {
 .customNav {
     position: fixed;
     width: 100%;
-    background: url("../images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
+    padding: 20px;
+    padding-left: 40px;
 }
 
-
+.navbar {
+    padding-left: 80px;
+}
 
 
 .navbar-nav {
@@ -40,6 +43,16 @@ p {
 .nav-item,
 form-check-input {
     margin: 0px 15px;
+}
+
+
+.nav-item a:hover {
+    color: brown;
+}
+
+.mr-auto {
+    margin-right: 0px;
+
 }
 
 /* Navigation dropdown menu */
@@ -65,10 +78,10 @@ form-check-input {
     font-size: 15px;
 }
 
+
 .jumbotron {
-    padding: 4rem 2rem;
-    margin-bottom: 2rem;
-    background-color: var(--bs-light);
+    padding: 4rem 1rem;
+
     border-radius: .3rem;
 }
 
@@ -102,10 +115,12 @@ form-check-input {
 
 .bg {
     background-color: rgb(154, 189, 192);
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .Vaccine-Section {
-    background-image: url("../css/assets/Group\ 1746.png");
+    background-image: url("../css/assets/Group\ 1746\ bgg.png");
 
 
 }
@@ -113,4 +128,18 @@ form-check-input {
 .stay-safe {
 
     padding-top: 10px;
+    background-image: url("../css/assets/Group\ 1767.png");
+
+
+}
+
+.bg-next {
+    background: rgba(26, 27, 26, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.bg-last {
+
+    background: rgba(154, 189, 92, 0.3);
 }
