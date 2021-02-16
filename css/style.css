@@ -51,7 +51,7 @@ form-check-input {
 }
 
 .mr-auto {
-    margin-right: 0px;
+    margin-right: 0px !important;
 
 }
 
@@ -83,11 +83,6 @@ form-check-input {
     padding: 4rem 1rem;
 
     border-radius: .3rem;
-}
-
-.btn {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 
@@ -172,6 +167,10 @@ form-check-input {
     color: white;
 }
 
+.btn {
+    border: #7D3335 !important;
+}
+
 .btn-success,
 .btn-success:active,
 .btn-success:visited,
@@ -184,20 +183,124 @@ form-check-input {
 
 .btn-success:hover {
     background-color: #5F2324 !important;
+    color: white;
     border: #5F2324 !important;
 
 }
 
-.btn-outline-success,
-.btn-outline-success:hover {
+.btn-outline-danger,
+.btn-outline-danger:active,
+.btn-outline-danger:visited,
+.btn-outline-danger:focus,
+.btn-outline-danger:active:focus,
+.btn-outline-danger:checked {
+    border: 2px solid #5F2324 !important;
     color: #5F2324 !important;
-    border-radius: #5F2324 !important;
+}
+
+.btn-outline-danger:active {
+    border: #5F2324 !important;
+
 
 }
 
-.btn-outline-success:hover {
-    background-color: #5F2324 !important;
+
+.btn-outline-danger:hover {
+    background-color: rgba(125, 51, 53, 0.06) !important;
     border: #5F2324 !important;
     color: white;
+
+}
+
+.toggleContainer {
+    padding: 15px;
+    display: none;
+    transition: all;
+}
+
+.hiddenSlide {
+    display: none;
+    min-height: 428px;
+}
+
+.containerHeight {
+    min-height: 428px;
+    background-color: black;
+}
+
+.active {
+    display: block;
+}
+
+.w3-ul {
+    cursor: pointer;
+}
+
+.plus_minus {
+    float: right;
+}
+
+
+.w3-padding-small {
+    padding: 4px 8px !important
+}
+
+.w3-padding {
+    padding: 8px 16px !important
+}
+
+.toggle {
+    border: 1px solid gray !important;
+    border-radius: 5px !important;
+}
+
+.w3-padding-large {
+    padding: 12px 24px !important
+}
+
+.w3-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.w3-padding-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important
+}
+
+.w3-padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+}
+
+.w3-padding-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important
+}
+
+.w3-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.first-card-state {
+    background-color: #E3A054;
+}
+
+.w3-top {
+    z-index: 2;
+}
+
+.second-card {
+    background-color: #FBDCBB;
+}
+
+.third-card {
+    background-color: #C99383;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
 
 }
