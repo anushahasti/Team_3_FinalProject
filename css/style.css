@@ -179,12 +179,14 @@ form-check-input {
 .btn-success:checked {
     background-color: #7D3335 !important;
     border: #7D3335 !important;
+    box-shadow: none !important;
 }
 
 .btn-success:hover {
     background-color: #5F2324 !important;
     color: white;
     border: #5F2324 !important;
+    box-shadow: none !important;
 
 }
 
@@ -196,18 +198,21 @@ form-check-input {
 .btn-outline-danger:checked {
     border: 2px solid #5F2324 !important;
     color: #5F2324 !important;
+    box-shadow: none !important;
 }
 
 .btn-outline-danger:active {
     border: #5F2324 !important;
 
-
+    box-shadow: none !important;
 }
 
 
+
 .btn-outline-danger:hover {
+
     background-color: rgba(125, 51, 53, 0.06) !important;
-    border: #5F2324 !important;
+
     color: white;
 
 }
@@ -308,4 +313,11 @@ form-check-input {
 .img-fluid {
     max-width: 100% !important;
     height: auto !important;
+}
+
+@media (max-width: 575px) {
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 33.333333%;
+    }
 }
