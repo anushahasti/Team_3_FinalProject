@@ -136,13 +136,13 @@ form-check-input {
 
 .bg-last {
 
-    background: rgba(154, 189, 92, 0.07);
+    background: rgba(154, 189, 192, 0.26);
     padding: 15px;
     border-radius: 30px;
 }
 
 .stay-updated {
-    background: rgba(154, 189, 92, 0.09);
+    background: rgba(154, 189, 192, 0.2);
 
 }
 
@@ -305,8 +305,7 @@ form-check-input {
 
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.img-fluid {
+    max-width: 100% !important;
+    height: auto !important;
 }
