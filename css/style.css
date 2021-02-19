@@ -318,6 +318,11 @@ form-check-input {
 @media (max-width: 575px) {
     .col-sm-4 {
         flex: 0 0 auto;
-        width: 33.333333%;
+        width: 33.333333% !important;
     }
+}
+
+.form-check-input:checked {
+    background-color: #5F2324 !important;
+    border-color: #5F2324 !important;
 }
